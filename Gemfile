@@ -16,7 +16,7 @@ group :doc do
 end
 
 gem "rspec-rails", ">= 2.12.2", :group => [:development, :test]
-gem "database_cleaner", ">= 0.9.1", :group => :test
+gem "database_cleaner", "<1.1.0", :group => :test
 gem "email_spec", ">= 1.4.0", :group => :test
 gem "cucumber-rails", ">= 1.3.0", :group => :test, :require => false
 gem "launchy", ">= 2.1.2", :group => :test
